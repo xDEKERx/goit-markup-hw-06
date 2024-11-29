@@ -25,6 +25,7 @@ header {
 
 .navigation {
     list-style-type: none;
+    text-align: center;
 }
 
 .navigation-menu {
@@ -85,6 +86,7 @@ header {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.04em;
     cursor: pointer;
+    text-align: center;
 }
 
 .button:hover,
