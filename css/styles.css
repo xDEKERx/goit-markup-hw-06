@@ -314,8 +314,8 @@ img {
     line-height: 120%;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    margin-top: 8px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .text-prtfo {
@@ -341,7 +341,7 @@ img {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
-    margin-bottom: 17.5px;
+    margin-bottom: 16px;
     display: inline-block;
 }
 
