@@ -32,7 +32,7 @@ img {
     align-items: center;
 }
 
-.nav-box{
+.nav-box {
     display: flex;
     align-items: center;
 }
@@ -84,7 +84,7 @@ img {
     margin-left: 332px;
 }
 
-.address{
+.address {
     list-style-type: none;
     text-align: right;
     display: flex;
@@ -142,7 +142,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    }
+}
 
 .button:hover,
 .button:focus {
@@ -183,7 +183,7 @@ img {
     margin: 0 auto;
 }
 
-.list-description{
+.list-description {
     display: flex;
     width: 1128px;
     gap: 24px;
@@ -357,5 +357,9 @@ img {
 
 .accent-ftr {
     color: #f4f4fd;
+    margin: 0;
+}
+
+content-portfolio {
     margin: 0;
 }
