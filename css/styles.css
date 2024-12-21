@@ -73,8 +73,8 @@ img {
     left: 0;
     bottom: -1px;
     height: 4px;
-    border-radius: 2px;
     background-color: #404bbf;
+    border-radius: 2px;
 }
 
 a.decoration-symbol {
@@ -389,7 +389,7 @@ a.decoration-symbol {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
     padding: 40px 32px;
     width: 100%;
@@ -520,7 +520,7 @@ a.decoration-symbol {
 
 .link-footer:hover,
 .link-footer:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 .icon-footer {
