@@ -66,7 +66,7 @@ img {
     margin: 24px 0;
 }
 
-.decoretion-symbol::after {
+.decoretion-symbol::after{
     content: '';
     width: 100%;
     position: absolute;
@@ -77,7 +77,7 @@ img {
     border-radius: 2px;
 }
 
-a.decoration-symbol {
+a.decoretion-symbol {
     color: #404bbf;
 }
 
@@ -181,6 +181,7 @@ a.decoration-symbol {
     line-height: 150%;
     color: #ffffff;
     background-color: #404bbf;
+    text-align: center;
 }
 
 .section-description {
