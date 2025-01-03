@@ -214,12 +214,6 @@ a.decoretion-symbol {
     margin: 0 auto;
 }
 
-.list-description {
-    display: flex;
-    width: 1128px;
-    gap: 24px;
-    margin: 0 auto;
-}
 
 .list {
     list-style-type: none;
@@ -759,26 +753,26 @@ a.decoretion-symbol {
 }
 
 .text-input-comment {
-    display: block;
-    width: 100%;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
     height: 120px;
+    padding: 8px 16px;
     resize: none;
-    font-weight: 400;
+    background-color: transparent;
+    outline: transparent;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    outline: transparent;
-    outline-color: transparent;
-    outline-style: none;
-    padding: 8px 16px;
-    background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .text-input-comment::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
 
@@ -787,7 +781,9 @@ a.decoretion-symbol {
 }
 
 .box-checkbox {
+    display: flex;
     margin-bottom: 24px;
+    align-items: center;
 }
 
 .checkbox-input:checked + .form-checkbox .check {
