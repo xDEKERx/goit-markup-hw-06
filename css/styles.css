@@ -1023,7 +1023,7 @@ a.corrent {
 .form-subscribe {
     display: flex;
     gap: 16px;
-    flex-wrap: wrap;
+     flex-wrap: wrap;
 }
 
 @media screen and (min-width: 768px) {
