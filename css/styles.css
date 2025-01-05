@@ -35,8 +35,8 @@ a {
 
 .container {
     margin: 0 auto;
-    padding: 0 15px;
-    max-width: 1158px;
+    padding: 0 16px;
+    max-width: 320px;
 }
 
 @media screen and (min-width: 768px) {
@@ -79,6 +79,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     margin-right: 76px;
+    text-align: left;
 }
 
 @media screen and (min-width: 768px) {
@@ -95,13 +96,8 @@ a {
 }
 
 .navigation {
-    list-style-type: none;
-    text-align: center;
-    display: flex;
-    gap: 40px;
-    padding-left: 0;
-    flex-grow: 1;
-    margin: 24px 0;
+    display: none;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -149,7 +145,7 @@ a.decoretion-symbol {
 
 .contacts {
     font-style: normal;
-    margin-left: 332px;
+    margin-left: auto;
 }
 
 .address {
